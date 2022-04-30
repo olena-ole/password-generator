@@ -58,6 +58,10 @@ h2 {
     border-radius: 6px;
 }
 
+.generate-btn:hover {
+    cursor: pointer;
+}
+
 .logo-wrap {
     height: 18px;
     width: 14px;
@@ -89,6 +93,23 @@ input {
     background: #273549;
     border: none;
     border-radius: 6px; 
+}
+
+input::placeholder {
+    text-align: center;
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+input:focus {
+    font-weight: 500;
+    font-size: 16px;
+
+    text-align: center;
+
+    color: #55F991;
+    outline: none;
 }
 
 .left {
