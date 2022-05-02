@@ -119,3 +119,8 @@ input[value] {
 .bottom {
     margin-top: 27px;
 }
+
+.long {
+    margin-top: 20px;
+    margin-left: auto;
+}
