@@ -28,3 +28,12 @@ generateLongBtn.addEventListener('click', () => {
         el.value = generatePass(16);
     })
 });
+
+inputsArr.forEach(el => {
+    el.addEventListener('click', () => {
+        if (el.value) {
+            navigator.clipboard.writeText(el.value);
+            alert(`Text copied: ${el.value}`);
+        }
+    })
+});
